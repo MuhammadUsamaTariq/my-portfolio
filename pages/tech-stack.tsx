@@ -17,7 +17,6 @@ import Header from 'components/shared/header';
 import { MotionBox } from 'components/shared/animations/motion';
 import { container, PageSlideFade } from 'components/shared/animations/page-transitions';
 import PageLayout from '../components/layouts/pageLayout';
-import { useLinkColor } from 'components/theme';
 import { SkillProps } from 'interfaces/interface';
 
 // const tabList = [
