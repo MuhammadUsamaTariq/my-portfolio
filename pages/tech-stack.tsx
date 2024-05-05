@@ -1,23 +1,16 @@
 import * as React from 'react';
 import { useState } from 'react';
 import {
-  Icon,
   VStack,
-  HStack,
   Text,
   Tabs,
-  TabList,
   TabPanels,
-  Tab,
   TabPanel,
   useColorModeValue,
   SimpleGrid
 } from '@chakra-ui/react';
 import { GetStaticProps, NextPage } from 'next';
 import Section from 'components/skills/section';
-import { AiTwotoneThunderbolt, AiOutlineCloudServer } from 'react-icons/ai';
-import { BiDesktop } from 'react-icons/bi';
-import { GiSpiderWeb } from 'react-icons/gi';
 import SkillCard from 'components/skills/skill-card';
 import { skillsArray } from 'data/data';
 import Header from 'components/shared/header';
@@ -50,20 +43,12 @@ import { SkillProps } from 'interfaces/interface';
 //   }
 // ];
 
-const tabList = []
-
 const TechStack: NextPage<SkillProps> = ({ skills }) => {
-  const bgColor = useLinkColor();
   const [skillsList, setSkillsList] = useState([]);
 
   React.useEffect(() => {
     setSkillsList(skills);
   }, []);
-
-  const filterSkills = (tab) => {
-    if (tab.length) setSkillsList(skills.filter((skill) => skill.type === tab));
-    else setSkillsList(skills);
-  };
 
   return (
     <PageLayout title="Skills" keywords="rails, ruby, react, javascript, typescript">
