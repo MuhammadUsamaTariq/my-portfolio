@@ -2,65 +2,48 @@ export const companies = [
   {
     title: 'Qbatch',
     alt: 'BW image',
-    role: 'Software Engineer',
-    skills: ['MERN', 'node', 'aws', 'nginx', 'next', 'react', 'nest', 'electron', 'typescript', 'javascript'],
-    period: 'Jul 2022 - Present',
+    role: 'Full Stack Engineer',
+    skills: ['javascript', 'react', 'react-native', 'vue3', 'nodejs', 'mysql', 'postgres', 'sequelizeORM', "aws", "keepa", "spapi"],
+    period: 'Jan 2023 - Present',
     logo: '/assets/images/logos/qbatch.png'
   },
   {
-    title: 'WeTeck',
-    alt: 'PS image',
-    role: 'Software Engineer (Part Time)',
-    skills: ['golang', 'node', 'aws', 'nginx', 'next', 'react', 'typescript', 'javascript' ],
-    period: 'Mar 2023 - Sep 2023',
-    logo: '/assets/images/logos/weteck.png'
+    title: 'Dot Kreativ',
+    alt: 'DK image',
+    role: 'MERN Stack Engineer',
+    skills: ['javascript', 'react', 'nodejs', 'mysql', 'sequelizeORM'],
+    period: 'May 2022 - Dec 2022',
+    logo: '/assets/images/logos/dotkreativ.png'
   },
   {
-    title: 'Netixsol',
-    alt: 'Netixsol image',
-    role: 'Blockchain Intern',
-    skills: ['javascript', 'react', 'solidity', 'ethereum','node'],
-    period: 'Jan 2022 - Feb 2022',
-    logo: '/assets/images/logos/netixsol.png'
+    title: 'DevStrings',
+    alt: 'DS image',
+    role: 'MERN Stack Engineer',
+    skills: ['javascript', 'react', 'nodejs', 'mysql', 'sequelizeORM'],
+    period: 'Jul 2021 - May 2022',
+    logo: '/assets/images/logos/devstrings.png'
   },
   {
-    title: 'Mindstorm Studios',
-    alt: 'BT image',
-    role: 'Game Developer Intern',
-    skills: ['unity3D', 'hyper casual games', 'story making', 'designing'],
-    period: 'Aug 2021 - Sep 2021',
-    logo: '/assets/images/logos/mindstorm.jpeg'
+    title: 'Gamicacloud',
+    alt: 'GC image',
+    role: 'MERN Stack Engineer (Bootcamp)',
+    skills: ['javascript', 'react', 'nodejs', 'mongodb', 'mysql'],
+    period: 'Apr 2021 - Jul 2021',
+    logo: '/assets/images/logos/gamicacloud.jpeg'
   },
 ];
 
 export const institutes = [
   {
-    short_title: 'FAST - NUCES',
-    title: 'National University of Computer and Emerging Sciences',
+    short_title: 'GCUF',
+    title: 'Government College University Faisalabad',
     alt: 'Nuces image',
     role: "Bachelor's Degree in Computer Science",
-    skills: ['project management', 'web development', 'data structures', 'usuability engineering', 'game development'],
-    period: '2018 - 2022',
-    startingYear: '2018',
-    logo: '/assets/images/logos/fast.png',
-    awards: [
-      {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'May 1, 2015'
-      },
-      {
-        title: 'Silver Medal',
-        description:
-          'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-        date: 'May 1, 2014'
-      },
-      {
-        title: 'Speed Programming Battle',
-        description: 'Won speed programming battle which held at FAST - NUCES.',
-        date: 'Nov 1, 2013'
-      }
-    ]
+    skills: ['project management', 'web development', 'data structures', 'usuability engineering', 'app development'],
+    period: '2015 - 2019',
+    startingYear: '2015',
+    logo: '/assets/images/logos/gcuf.jpeg',
+    awards: []
   }
 ];
 
@@ -78,6 +61,20 @@ export const skillsArray = [
     link: 'https://reactjs.org/',
     type: 'development',
     image: '/assets/images/skills/react.png'
+  },
+  {
+    name: 'React Native',
+    description: 'Web development',
+    link: 'https://reactnative.dev/',
+    type: 'development',
+    image: '/assets/images/skills/react.png'
+  },
+  {
+    name: 'Vue3',
+    description: 'Web development',
+    link: 'https://vuejs.org/',
+    type: 'development',
+    image: '/assets/images/skills/vue3.png'
   },
   {
     name: 'Python',
@@ -164,13 +161,6 @@ export const skillsArray = [
     image: '/assets/images/skills/docker.png'
   },
   {
-    name: 'Heroku',
-    description: 'Devops',
-    link: 'https://www.heroku.com/',
-    type: 'devops',
-    image: '/assets/images/skills/heroku.png'
-  },
-  {
     name: 'AWS',
     description: 'Devops',
     link: 'https://aws.amazon.com/',
@@ -183,13 +173,6 @@ export const skillsArray = [
     link: 'https://www.digitalocean.com/',
     type: 'devops',
     image: '/assets/images/skills/digital-ocean.png'
-  },
-  {
-    name: 'Nginx',
-    description: 'Web server',
-    link: 'https://www.nginx.com/',
-    type: 'devops',
-    image: '/assets/images/skills/nginx.png'
   },
   {
     name: 'Visual Studio Code',

@@ -8,16 +8,16 @@ import {
 import { FiMail } from "react-icons/fi";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Mustafa Ali. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Usama Tariq. All Rights Reserved.`,
   author: {
-    name: "Muhammad Mustafa Ali",
+    name: "Usama Tariq",
     accounts: [
-      {
-        url: "https://github.com/mustafa-ali-qbatch",
-        label: "Github Account",
-        type: "gray",
-        icon: <FaGithub />
-      },
+      // {
+      //   url: "https://github.com/mustafa-ali-qbatch",
+      //   label: "Github Account",
+      //   type: "gray",
+      //   icon: <FaGithub />
+      // },
       // {
       //   url: "https://twitter.com/muhammad_ahmaad",
       //   label: "Twitter Account",
@@ -31,7 +31,7 @@ const siteConfig = {
       //   icon: <FaDev />
       // },
       {
-        url: "https://www.linkedin.com/in/mustafa-ali-34b257214/",
+        url: "https://www.linkedin.com/in/muhammad-usama-tariq-939214158/",
         label: "LinkedIn Account",
         type: "linkedin",
         icon: <FaLinkedin />
@@ -43,8 +43,8 @@ const siteConfig = {
       //   icon: <FaQuora />
       // },
       {
-        url: "mailto:mustafaamjad271@gmail.com",
-        label: "Mail mustafa",
+        url: "mailto:usamatariq148@gmail.com",
+        label: "Mail usama",
         type: "gray",
         icon: <FiMail />
       }

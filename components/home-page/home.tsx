@@ -116,7 +116,7 @@ const Home: React.FC<BlogPostProps> = () => {
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
             My name is{' '}
             <Box as="strong" fontWeight="600">
-             M Mustafa Ali
+             Usama Tariq
             </Box>{' '}
             and I&apos;m a{' '}
             <Box as="span" whiteSpace="nowrap">

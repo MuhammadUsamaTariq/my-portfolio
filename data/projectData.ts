@@ -14,7 +14,7 @@ export const projectsList = [
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'https://app.storefilter.com/',
     description:
-     "A competitor analysis platform that focuses on keywords, ads, Shopify stores, and sales funnels to help businesses grow and understand their competitors' strategies.",
+      "A competitor analysis platform that focuses on keywords, ads, Shopify stores, and sales funnels to help businesses grow and understand their competitors' strategies.",
     techStack: ['Vue 3', 'VueX', 'Javascript']
   },
   {
@@ -23,8 +23,8 @@ export const projectsList = [
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
     site: 'http://secur-watch.com/',
     description:
-      'An e-commerce website offering watches along with their historical reports, secured using blockchain technology.',
-    techStack: ['Node', 'Next', 'MUI', 'Typescript', 'Blockchain']
+      'An e-commerce website offering watches along with their historical reports.',
+    techStack: ['Node', 'Next', 'MUI', 'Typescript']
   },
   {
     title: 'MJM Tools',

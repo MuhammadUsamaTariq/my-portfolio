@@ -33,7 +33,8 @@ import { MotionBox } from 'components/shared/animations/motion';
 
 const webLinks = [
   { name: 'About', path: '/about' },
-  { name: 'Projects', path: '/projects' }
+  { name: 'Projects', path: '/projects' },
+  { name: 'Tech Stack', path: '/tech-stack' },
 ];
 
 const mobileLinks = [
@@ -181,7 +182,7 @@ export default function TopNav() {
                   onClose={onClose}
                 />
               ))}
-              <Menu autoSelect={false} isLazy>
+              {/* <Menu autoSelect={false} isLazy>
                 {({ isOpen, onClose }) => (
                   <>
                     <MenuButton
@@ -231,7 +232,7 @@ export default function TopNav() {
                     </MenuList>
                   </>
                 )}
-              </Menu>
+              </Menu> */}
             </HStack>
           </HStack>
           <Flex alignItems={'center'}>

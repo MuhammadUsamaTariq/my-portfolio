@@ -27,28 +27,30 @@ import PageLayout from '../components/layouts/pageLayout';
 import { useLinkColor } from 'components/theme';
 import { SkillProps } from 'interfaces/interface';
 
-const tabList = [
-  {
-    name: 'All',
-    filterName: '',
-    icon: AiTwotoneThunderbolt
-  },
-  {
-    name: 'Web Development',
-    filterName: 'development',
-    icon: BiDesktop
-  },
-  {
-    name: 'Web Design',
-    filterName: 'design',
-    icon: GiSpiderWeb
-  },
-  {
-    name: 'Devops',
-    filterName: 'devops',
-    icon: AiOutlineCloudServer
-  }
-];
+// const tabList = [
+//   {
+//     name: 'All',
+//     filterName: '',
+//     icon: AiTwotoneThunderbolt
+//   },
+//   {
+//     name: 'Web Development',
+//     filterName: 'development',
+//     icon: BiDesktop
+//   },
+//   {
+//     name: 'Web Design',
+//     filterName: 'design',
+//     icon: GiSpiderWeb
+//   },
+//   {
+//     name: 'Devops',
+//     filterName: 'devops',
+//     icon: AiOutlineCloudServer
+//   }
+// ];
+
+const tabList = []
 
 const TechStack: NextPage<SkillProps> = ({ skills }) => {
   const bgColor = useLinkColor();
@@ -84,7 +86,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
           </Section>
           <Section zIndex={5}>
             <Tabs variant="soft-rounded" colorScheme="blue" align="center" w="100%">
-              <TabList display="flex" flexWrap="wrap">
+              {/* <TabList display="flex" flexWrap="wrap">
                 {tabList.map((tab, index) => (
                   <Tab
                     bg={useColorModeValue('gray.100', 'gray.800')}
@@ -104,7 +106,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                     </HStack>
                   </Tab>
                 ))}
-              </TabList>
+              </TabList> */}
               <TabPanels minHeight={'45vh'}>
                 <TabPanel px={0}>
                   <MotionBox variants={container} initial="hidden" animate="visible">
