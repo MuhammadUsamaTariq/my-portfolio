@@ -20,16 +20,8 @@ export const companies = [
     alt: 'DS image',
     role: 'MERN Stack Engineer',
     skills: ['javascript', 'react', 'nodejs', 'mysql', 'sequelizeORM'],
-    period: 'Jul 2021 - May 2022',
+    period: 'Apr 2021 - May 2022',
     logo: '/assets/images/logos/devstrings.png'
-  },
-  {
-    title: 'Gamicacloud',
-    alt: 'GC image',
-    role: 'MERN Stack Engineer (Bootcamp)',
-    skills: ['javascript', 'react', 'nodejs', 'mongodb', 'mysql'],
-    period: 'Apr 2021 - Jul 2021',
-    logo: '/assets/images/logos/gamicacloud.jpeg'
   },
 ];
 
